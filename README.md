@@ -8,7 +8,7 @@ allows a person to add information about a new song in the database essentially 
 (This feature can be checked by putting raw json information in the body tab of the website through Postman.) 
 - GET /songs/<id>
 returns a specific song and its information by id provided
-- DELETE /songs/<id>
+- DELETE /songs/id \n
 deletes the specific song by id from the database
 - DELETE /delete_all_songs (additional)
 deletes all the songs from the database
