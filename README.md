@@ -3,7 +3,7 @@ A backend made using python and flask for creating a songs and playlist API. The
 For now the backend supports the following features-
 - GET /songs  
 returns all the songs present in the database in a jsonify-d format
-- POST /songs 
+- POST /songs   
 allows a person to add information about a new song in the database essentially creating a row with 3 paramters (title, album, artist).
 (This feature can be checked by putting raw json information in the body tab of the website through Postman.) 
 - GET /songs/id   
