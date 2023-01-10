@@ -127,7 +127,7 @@ def getRequestId(id2):
         return jsonify({
                     'res': sgs,
                     'status': '200',
-                    'msg': 'Success getting song by ID!👍😀',
+                    'msg': 'Success getting song by ID!',
                     'no_of_songs': len(sgs)
                 })
 
